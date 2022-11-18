@@ -32,7 +32,7 @@ const IntranetLogin = () => {
                 <Form.Label className="text-white">Correo:</Form.Label>
                 <Form.Control
                   type="email"
-                  placeholder="Ejemplo@intranet_flotex.pe"
+                  placeholder="Ejemplo@Intranet_Flotex.pe"
                   name="email"
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
