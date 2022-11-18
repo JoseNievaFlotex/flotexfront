@@ -17,7 +17,7 @@ library.add(fas, far);
 
 const queryClient = new QueryClient();
 
-function App() {
+const App =() => {
   const perfil = LocalStorageService.obtenerPerfil();
   return (
     <QueryClientProvider client={queryClient}>

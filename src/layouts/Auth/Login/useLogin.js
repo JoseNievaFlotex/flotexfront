@@ -1,6 +1,8 @@
-import { useState } from "react";
+import React, { useState, Suspense } from "react";
 import { useQuery } from "react-query";
 import { AuthService, LocalStorageService } from "../../../services";
+
+
 
 const useLogin = () => {
   const [credentials, setCredentials] = useState(null);
@@ -19,6 +21,10 @@ const useLogin = () => {
 
   if (perfil === "Ventas") {
     window.location.href = "ventas/dash";
+    // import('../../../views/Ventas/indexDashboard')
+    
+   
+  
   }
 
   if (perfil === "Importaciones") {
