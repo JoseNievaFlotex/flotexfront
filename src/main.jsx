@@ -14,6 +14,10 @@ import AlmacenRoutes from "./routers/AlmacenRouter";
 import { LocalStorageService } from "./services";
 import { NotFoundComponent } from "./components/NotFoundComponent";
 import IntranetLogin from "./layouts/Auth/Intranet/IntranetLogin";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 const queryClient = new QueryClient();
 const perfil = LocalStorageService.obtenerPerfil();
 ReactDOM.createRoot(document.getElementById("root")).render(

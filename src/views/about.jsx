@@ -23,7 +23,13 @@ const About = () => {
 
       <Container>
         <Row>
-          <Col className="miEmpresa col-sm-12 col-md-4 col-lg-3.5 col-xl-4 col-xxl-5">
+          <Col
+            className="miEmpresa col-sm-12 col-md-4 col-lg-3.5 col-xl-4 col-xxl-5"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+          >
             <h1 className="mision">MISIÓN</h1>
             <p className="misionDato">
               Desarrollar el mercado de la moda peruana. Convertirnos en socios
@@ -33,7 +39,14 @@ const About = () => {
             </p>
           </Col>
           <Col className="col-sm-12 col-md-4 col-lg-6 col-xl-4">
-            <Image src="/img/flotexgreen/VP2.jpg" className="datosEmpresa" />
+            <Image
+              src="/img/flotexgreen/VP2.jpg"
+              className="datosEmpresa"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            />
           </Col>
         </Row>
       </Container>
@@ -82,7 +95,13 @@ const About = () => {
         </Row>
       </Container>
       {""}
-      <Container className=" bg-dark text-light fluid col-sm-12 col-md-8 col-md-10 ">
+      <Container
+        className=" bg-dark text-light fluid col-sm-12 col-md-8 col-md-10"
+        data-aos="flip-down"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="700"
+      >
         <h3 className="m-2 text-center p-4 "> Nuestros Valores</h3>
         <Row className="banner col-sm-12">
           <Col>

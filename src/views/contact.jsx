@@ -8,11 +8,23 @@ const Contact = () => {
     <>
       <Container>
         <Row>
-          <Col className="col-sm-6 col-md-6 col-lg-6 animate__animated animate__backInLeft text-color-flotex">
+          <Col
+            className="col-sm-6 col-md-6 col-lg-6  text-color-flotex"
+            data-aos="zoom-in-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+          >
             <h3 className=" p-4 ">CONTACTATE CON UNO DE NUESTROS VENDEDORES</h3>
             <Image src="/img/contact.jpg" className="contactImage" />
           </Col>
-          <Col className="col-sm-6 col-md-4 col-lg-6 animate__animated animate__backInDown">
+          <Col
+            className="col-sm-6 col-md-4 col-lg-6 "
+            data-aos="zoom-in-down"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+          >
             <Form className="  formularioContacto">
               <h3 className="text-end  text-color-flotex">CONTACTANOS</h3>
               <Form.Group className="mb-3 " controlId="formBasicEmail">

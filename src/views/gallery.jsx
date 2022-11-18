@@ -20,7 +20,11 @@ const Gallery = () => {
             <Row className="justify-content-md-center">
               <div
                 lg="6"
-                className="col-lg-6 col-sm-6 pe-0 bg-showroom-flotex animate__animated animate__backInLeft animate__delay-1s"
+                className="col-lg-6 col-sm-6 pe-0 bg-showroom-flotex"
+                data-aos="zoom-in-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1000"
               >
                 <div>
                   <p className="showroom-text">SHOWROOMS</p>
@@ -54,7 +58,11 @@ const Gallery = () => {
 
               <Col
                 lg="6"
-                className="col-sm-6 ps-0 animate__animated animate__backInRight animate__delay-1s"
+                className="col-sm-6 ps-0 "
+                data-aos="zoom-in-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1000"
               >
                 <div>
                   <Iframe
@@ -72,7 +80,12 @@ const Gallery = () => {
               </Col>
             </Row>
 
-            <Row className="animate__animated animate__backInUp animate__delay-1s">
+            <Row
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
               <Container className=" col-sm-12 col-md-12 col-lg-12">
                 <Row className="col-sm-12 p-1">
                   <div className="col-lg-3 col-sm-6 p-0 div-img-flotex-galery">
