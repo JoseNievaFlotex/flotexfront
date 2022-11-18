@@ -27,7 +27,7 @@ function Register() {
     <Container>
       <Row>
         <Col>
-          <Form className="" onSubmit={addUser}>
+          <Form  onSubmit={addUser}>
             <Form.Group className="mb-3">
               <Form.Label>Nombres</Form.Label>
               <Form.Control

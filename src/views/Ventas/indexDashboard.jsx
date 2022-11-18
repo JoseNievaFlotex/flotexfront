@@ -19,7 +19,7 @@ const indexDashboard = () => {
               >
                 <li className="nav-item">
                   <a href="/" className="nav-link align-middle px-0">
-                    <i className="fs-4 bi-house"></i>{" "}
+                
                     <span className="ms-1 d-none d-sm-inline">Home</span>
                   </a>
                 </li>
@@ -29,7 +29,6 @@ const indexDashboard = () => {
                     data-bs-toggle="collapse"
                     className="nav-link px-0 align-middle"
                   >
-                    <i className="fs-4 bi-speedometer2"></i>{" "}
                     <span className="ms-1 d-none d-sm-inline">Dashboard</span>{" "}
                   </a>
                   <ul
@@ -53,7 +52,7 @@ const indexDashboard = () => {
                 </li>
                 <li>
                   <a href="/" className="nav-link px-0 align-middle">
-                    <i className="fs-4 bi-table"></i>{" "}
+                  
                     <span className="ms-1 d-none d-sm-inline">Orders</span>
                   </a>
                 </li>
@@ -63,7 +62,6 @@ const indexDashboard = () => {
                     data-bs-toggle="collapse"
                     className="nav-link px-0 align-middle "
                   >
-                    <i className="fs-4 bi-bootstrap"></i>{" "}
                     <span className="ms-1 d-none d-sm-inline">Bootstrap</span>
                   </a>
                   <ul
@@ -91,7 +89,6 @@ const indexDashboard = () => {
                     data-bs-toggle="collapse"
                     className="nav-link px-0 align-middle"
                   >
-                    <i className="fs-4 bi-grid"></i>{" "}
                     <span className="ms-1 d-none d-sm-inline">Products</span>{" "}
                   </a>
                   <ul
@@ -127,7 +124,6 @@ const indexDashboard = () => {
                 </li>
                 <li>
                   <a href="/" className="nav-link px-0 align-middle">
-                    <i className="fs-4 bi-people"></i>{" "}
                     <span className="ms-1 d-none d-sm-inline">Customers</span>{" "}
                   </a>
                 </li>

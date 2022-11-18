@@ -10,7 +10,6 @@ const About = () => {
       <Container>
         <Row className="p-2">
           <iframe
-            className=""
             frameBorder="0"
             allowFullScreen="1"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

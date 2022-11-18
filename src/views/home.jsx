@@ -54,8 +54,8 @@ const Home = () => {
             <p className="animate__animated animate__backInLeft animate__delay-3s">
               Tela de alta Calidad, el bordado le añade textura a la superficie.
             </p>
-            <p className="">Es rígida, ligera y resistente.</p>
-            <p className="">
+            <p >Es rígida, ligera y resistente.</p>
+            <p >
               Perfecta para confeccionar blusas, camisas, faldas, pantalones y
               vestidos.
             </p>
