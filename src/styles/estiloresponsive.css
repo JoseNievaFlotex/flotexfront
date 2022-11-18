@@ -1,0 +1,522 @@
+*{
+  font-family: "Serif";
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+/* logo flotex*/
+.responsive-logo-flotex
+{
+  height: 40px;
+}
+  /*carrusel */
+.carusel {
+  width: 100vh;
+  height: 18rem;
+}
+
+/*telas universe */
+.telasuniverse {
+  height: 14rem;
+}
+.tejido {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #0F406F;
+}
+
+/* cottom */
+.cotton-text-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.cotton-text-flex p {
+  font-size: 15px;
+  word-spacing: 4px;
+  color: #0f406f;
+  margin: 3px;
+  padding: 5px;
+}
+.pruebadeface{
+  width: 40.75rem;
+  border-radius: 7px;
+  box-shadow: 1px 2px 8px -1px;
+ 
+}
+.img-cotton-responsive {
+  height: 20rem !important;
+}
+.pruebadeface{
+  height: 42.5rem;
+  width: 38.75rem;
+  border-radius: 7px;
+  box-shadow: 1px 2px 8px -1px;
+  padding: 0 !important;
+}
+/* Promociones*/
+.img-flotex-galery {
+  transition: 0.5s;
+
+  transition: 0.5s;
+  width: 1s;
+  height: 1s;
+  transform: 2s;
+
+  width: 100%;
+  height: 100%;
+}
+/*about valores */
+.logoempresa {
+  display: block;
+  margin: auto;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.banner {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+/* Mision y Vision */
+.miEmpresa {
+  background-color: black;
+  position: relative;
+  margin: auto;
+}
+.mision {
+  color: white;
+  padding: 1.5625rem;
+  font-family: serif;
+  font-style: normal;
+  font-size: 1.375rem;
+}
+.misionDato {
+  color: white;
+  display: flex;
+  padding-left: 1.875rem;
+  padding-right: 2.5rem;
+  font-size: 0.7rem;
+}
+.datosEmpresa {
+  width: 95vw;
+  margin: auto;
+  padding: 0px 5px 0px 0px;
+  height: 15rem;
+  padding-top: 1.1875rem;
+
+}
+/* gallery */
+.contenedor-bg-flotex-gallery {
+  display: none;
+}
+.showroom-text {
+  color: #7b7474;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/*Contacto */
+.contactImage{
+  width: 18.75rem;
+  height: 30.375rem;
+}
+.text-color-flotex{
+  color: #0F406F !important;
+  padding: 5px;
+  font-size: 15px;
+}
+.formularioContacto{
+  margin-top: 20px;
+    }
+    
+    /* footer */
+    .contact-flotex-responsive{
+      flex-direction: column;
+    }
+    #iframe-flotex-responsive {
+      height: 1188px !important;
+    }
+    .img-flotex-galery:hover {
+      transform: none;
+    }
+    .video-responsive-flotex{
+      height: 240px !important;
+    }
+    .dk-footer-box-info{
+      position: initial;
+      padding: 24px 48px;
+      /* padding: 20px 50px; */
+    }
+    .dk-footer-box-info .footer-social-link h3{
+      font-size: 18px;
+      margin-bottom: 6px;
+  
+    }
+    .dk-footer .contact-us{
+      margin-bottom: 10px;
+      padding-left: 25px;
+      padding-top: 15px;
+    }
+    .contenedor-flotex-logo-contac{
+      max-width: 90% !important;
+    }
+    .footer-logo img{
+      width: 150px !important;
+    }
+    /* logo intranet */
+.logointranet {
+  width: 250px;
+  height: 80px;
+}
+}
+
+/*tablet y deskptop */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+/* logo flotex*/
+.responsive-logo-flotex
+{
+  height: 50px;
+}
+  /*carrusel */
+.carusel {
+  width: 100vw;
+  height: 20rem;
+}
+/*telas universe */
+.telasuniverse {
+  height: 19rem;
+}
+.tejido {
+  display: flex;
+  margin: 20px;
+  padding: 30px;
+  justify-content: center;
+  font-size: 30px;
+  color: #0F406F;
+  align-items: center;
+  text-align: center;
+}
+/* cottom */
+.cotton-text-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.cotton-text-flex p {
+  font-size: 20px;
+  word-spacing: 4px;
+  color: #0f406f;
+  margin: 3px;
+  padding: 5px;
+}
+.pruebadeface{
+  height: 42.5rem;
+  width: 38.75rem;
+  border-radius: 7px;
+  box-shadow: 1px 2px 8px -1px;
+  padding: 0 !important;
+}
+.img-cotton-responsive {
+  height: 25rem !important;
+}
+
+/* Promociones*/
+.img-flotex-galery {
+  transition: 0.5s;
+
+  transition: 0.5s;
+  width: 1s;
+  height: 1s;
+  transform: 2s;
+
+  width: 100%;
+  height: 100%;
+  
+}
+.img-flotex-galery:hover {
+  transform: scale(1.2);
+  background-color: bisque;
+}
+/*about valores */
+.logoempresa {
+  display: block;
+  margin: auto;
+  width: 8rem;
+  height: 8rem;
+}
+.banner {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+}
+/* Mision y Vision */
+.miEmpresa {
+  background-color: black;
+  position: relative;
+ 
+}
+.mision {
+  color: white;
+  display: flex;
+  padding: 1.5625rem;
+  align-items: flex-end;
+  font-family: serif;
+  font-style: normal;
+  font-size: 2.375rem;
+}
+.misionDato {
+  color: white;
+  display: flex;
+  padding: 1.25rem;
+  padding-left: 1.875rem;
+  padding-right: 2.5rem;
+  font-size: 0.9rem;
+}
+.datosEmpresa {
+  width: 34.875rem;
+  height: 20rem;
+  padding: 0px 0px 0px 20px;
+  margin-top: 40px;
+  position: relative;
+  display: block;
+  padding-top: 1.1875rem;
+  left: -38px;
+}
+ /* gallery */
+ .contenedor-bg-flotex-gallery {
+  background-image: url(https://adar.com.br/wp-content/uploads/2020/01/Engage-Adar-Bom-Retiro-7630.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 300px;
+  width: auto;
+}
+.showroom-text {
+  color: #7b7474;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+ /*Contacto */
+ .contactImage{
+  width: 16.875rem;
+  height: 34.375rem;
+
+  margin-left: -50px;
+}
+.text-color-flotex{
+  color: #0F406F !important;
+  font-size: 20px;
+  margin: auto;
+}
+.formularioContacto{
+margin-top: 100px;
+}
+
+
+/* footer */
+.contact-flotex-responsive{
+  flex-direction: column;
+}
+#iframe-flotex-responsive {
+  height: 1188px !important;
+}
+.img-flotex-galery:hover {
+  transform: none;
+}
+.video-responsive-flotex{
+  height: 240px !important;
+}
+.dk-footer-box-info{
+  position: initial;
+  padding: 24px 48px;
+  /* padding: 20px 50px; */
+}
+.dk-footer-box-info .footer-social-link h3{
+  font-size: 18px;
+  margin-bottom: 6px;
+
+}
+.dk-footer .contact-us{
+  margin-bottom: 10px;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.contenedor-flotex-logo-contac{
+  max-width: 90% !important;
+}
+.footer-logo img{
+  width: 150px !important;
+}
+.footer-left-widget {
+  padding-left: 80px;
+}
+/* logo intranet */
+.logointranet {
+  width: 250px;
+  height: 80px;
+}
+}
+
+/* pantalla ancha*/
+@media only screen and (min-width: 991px) and (max-width: 100vw) {
+  .responsive-logo-flotex
+  {
+    height: 50px;
+  }
+  /*carrusel */
+.carusel {
+  width: 100vw;
+  height: 35rem;
+}
+/* cottom */
+cotton-text-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.tejido {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  font-size: 50px;
+  color: #0F406F;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.cotton-text-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cotton-text-flex p {
+  max-width: 315px;
+  font-size: 25px;
+  word-spacing: 4px;
+  color: #0f406f;
+  margin: 10px;
+  padding: 20px;
+  white-space: pre-line;
+  /* text-shadow: 2px 1px 5px; */
+}
+.img-cotton-responsive {
+  height: 35rem !important;
+}
+.img-flotex-galery:hover {
+  transform: scale(1.2);
+  background-color: bisque;
+}
+.pruebadeface{
+  height: 42.5rem;
+  width: 38.75rem;
+  border-radius: 7px;
+  box-shadow: 1px 2px 8px -1px;
+  padding: 0 !important;
+}
+/* Promociones*/
+.img-flotex-galery {
+  transition: 0.5s;
+
+  transition: 0.5s;
+  width: 1s;
+  height: 1s;
+  transform: 2s;
+
+  width: 100%;
+  height: 100%;
+}
+/*about valores */
+.logoempresa {
+  display: block;
+  margin: auto;
+  width: 8rem;
+  height: 8rem;
+}
+.banner {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+}
+/* Mision y Vision */
+.miEmpresa {
+  background-color: black;
+  position: relative;
+  padding: 5rem;
+}
+.mision {
+  color: white;
+  display: flex;
+  padding: 1.5625rem;
+  align-items: flex-end;
+  font-family: serif;
+  font-style: normal;
+  font-size: 3.375rem;
+}
+.misionDato {
+  color: white;
+  display: flex;
+  padding: 1.25rem;
+  padding-left: 1.875rem;
+  padding-right: 4.5rem;
+  font-size: 1.rem;
+}
+.datosEmpresa {
+  width: 45.875rem;
+  height: 20rem;
+  margin-top: 60px;
+  position: relative;
+  display: block;
+  left: -38px;
+}
+ /* gallery */
+ .contenedor-bg-flotex-gallery {
+  background-image: url(https://adar.com.br/wp-content/uploads/2020/01/Engage-Adar-Bom-Retiro-7630.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 400px;
+  width: auto;
+}
+.showroom-text {
+  color: #7b7474;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.contactImage{
+  width: 20.875rem;
+  height: 34.375rem;
+  
+
+}
+.text-color-flotex{
+  color: #0F406F !important;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 4px;
+}
+.formularioContacto{
+margin-top: 100px;
+}
+.footer-left-widget {
+  padding-left: 80px;
+}
+/* logo intranet*/
+.logointranet {
+  width: 25rem;
+  height: 6.25rem;
+}
+}

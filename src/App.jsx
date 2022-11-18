@@ -1,34 +1,52 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { BrowserRouter, Route } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "react-query";
+import { AuthRoutes } from "./routers/AuthRouter";
+import AppRouter from "./routers/AppRouter";
+import { PrivateRoutes, PrivateRutaAlmace } from "./routers/PrivateRoutes";
+import AlmacenRoutes from "./routers/AlmacenRouter";
+import { LocalStorageService } from "./services";
+import { NotFoundComponent } from "./components/NotFoundComponent";
+import IntranetLogin from "./layouts/Auth/Intranet/IntranetLogin";
+
+library.add(fas, far);
+
+const queryClient = new QueryClient();
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const perfil = LocalStorageService.obtenerPerfil();
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <QueryClientProvider client={queryClient}>
+      <div className="App">
+        <BrowserRouter>
+          <NotFoundComponent>
+            <Route path="/*" element={<AuthRoutes />} />
+            <Route path="intranet" element={<IntranetLogin />} />
+            <Route
+              path="/ventas/*"
+              element={
+                <PrivateRoutes perfil={perfil}>
+                  <AppRouter />
+                </PrivateRoutes>
+              }
+            />
+            <Route
+              path="/almacen/*"
+              element={
+                <PrivateRutaAlmace perfil={perfil}>
+                  <AlmacenRoutes />
+                </PrivateRutaAlmace>
+              }
+            />
+          </NotFoundComponent>
+        </BrowserRouter>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    </QueryClientProvider>
+  );
 }
 
-export default App
+export default App;
