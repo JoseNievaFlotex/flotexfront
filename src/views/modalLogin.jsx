@@ -1,16 +1,14 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import React from 'react';
+import React from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Row";
 import Modal from "react-bootstrap/Modal";
-import NavLogin from './navLogin';
+import NavLogin from "./navLogin";
 
 function modalLogin({ show, onHide }) {
-    
-  
-    // const handleClose = () => setShow(false);
-    // const handleShow = () => setShow(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
 
   return (
     <>
@@ -26,7 +24,6 @@ function modalLogin({ show, onHide }) {
                   </Row>
                 </Modal.Body>
               </Modal>
-
             </Col>
           </Row>
         </Container>

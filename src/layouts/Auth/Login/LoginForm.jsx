@@ -14,9 +14,7 @@ const LoginForm = () => {
   const formik = useFormik({
     initialValues: { email: "", password: "" },
     validationSchema: Yup.object({
-      email: Yup.string()
-        .email("Email invalido")
-        .required("Requerido"),
+      email: Yup.string().email("Email invalido").required("Requerido"),
       password: Yup.string().required("Requerido"),
     }),
     onSubmit: (values) => setCredentials(values),
@@ -59,7 +57,7 @@ const LoginForm = () => {
               />
               <Form.Text className=" text-danger">
                 {formik.touched.password &&
-                toastme.warning(formik.errors.password)
+                formik.errors.password
                   ? formik.errors.password
                   : ""}
               </Form.Text>

@@ -23,8 +23,6 @@ const NavBarExample = () => {
 
   const userExist = LocalStorageService.obtenerUsuario();
 
- 
-
   const cerrarSesion = (e) => {
     e.preventDefault();
     LocalStorageService.removerAutorizacion(sessionStorage.removeItem);
@@ -125,7 +123,8 @@ const NavBarExample = () => {
                   <p id="nav-a-flotex" className="text-uppercase">
                     {userExist}
                   </p>
-                  <p href="/"
+                  <p
+                    href="/"
                     id="nav-a-flotex"
                     className={({ isActive }) =>
                       isActive ? "bg-nav-flotex" : normalLink

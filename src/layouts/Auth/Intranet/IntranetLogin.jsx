@@ -11,9 +11,7 @@ const IntranetLogin = () => {
   const formik = useFormik({
     initialValues: { email: "", password: "" },
     validationSchema: Yup.object({
-      email: Yup.string()
-        .email("Email invalido")
-        .required("Requerido"),
+      email: Yup.string().email("Email invalido").required("Requerido"),
       password: Yup.string().required("Requerido"),
     }),
     onSubmit: (values) => values,
@@ -25,10 +23,10 @@ const IntranetLogin = () => {
 
         <Container className="intranet">
           <Row className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
-              <Image
-                src="/img/logos/logointranet.png "
-                className="logointranet"
-              />
+            <Image
+              src="/img/logos/logointranet.png "
+              className="logointranet"
+            />
             <Form onSubmit={formik.handleSubmit} className="formIntranet">
               <Form.Group className="mb-3 p-2" controlId="formBasicEmail">
                 <Form.Label className="text-white">Correo:</Form.Label>
