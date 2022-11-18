@@ -14,7 +14,6 @@ const useLogin = () => {
   //   }, [credentials]);
 
   if (data) {
-    toastme.success(`Bienvenido al Sistema ${data.user.name}`);
     LocalStorageService.guardarAutorizacion(data);
   }
 

@@ -57,7 +57,7 @@ const LoginForm = () => {
               />
               <Form.Text className=" text-danger">
                 {formik.touched.password &&
-                toastme.warning(formik.errors.password)
+                formik.errors.password
                   ? formik.errors.password
                   : ""}
               </Form.Text>
