@@ -31,7 +31,7 @@ const Home = () => {
       </Carousel>
       <Container className="p-2 d-flex justify-content-center animate__animated animate__backInLeft animate__delay demo-top-flotex">
         <Row className="col-sm-12 col-md-10 col-lg-8 col-xl-8">
-          <h3 className="letter text-color-flotex">LÍNEA SOSTENIBLE</h3>
+          <p className="letter text-color-flotex">LÍNEA SOSTENIBLE</p>
           <Image
             src="/img/flotexgreen/flotex-green.jpg"
             className="telasuniverse"
@@ -44,7 +44,7 @@ const Home = () => {
             <Image src="/img/flotexgreen/VP1.jpg" className="telasuniverse" />
           </Row>
           <Col className=" col-md-2 col-lg-2 col-xl-2">
-            <h3 className="tejido text-color-flotex">TU UNIVERSO EN TELAS</h3>
+            <h3 className="tejido ">TU UNIVERSO EN TELAS</h3>
           </Col>
         </Row>
       </Container>
@@ -68,11 +68,11 @@ const Home = () => {
           </div>
         </Row>
       </Container>
-      <h2 className="text-center m-4 text-color-flotex">PROMOCIONES</h2>
-      <Row className="animate__animated animate__backInUp animate__delay-1s">
-        <Container className=" col-sm-12 col-md-12 col-lg-12">
-          <Row className="col-sm-12 p-1">
-            <div className="col-sm-3 col-md-6 col-lg-6 col-xl-3 p-0">
+      <p className="text-center m-4 text-color-flotex">PROMOCIONES</p>
+   
+        <Container className=" col-sm-12 col-md-12 col-lg-12 animate__animated animate__backInUp animate__delay-1s" >
+          <Row className="col-sm-12  contenedorImagenes">
+            <div className="col-sm-3 col-md-6 col-lg-6 col-xl-3 p-0 ">
               <Image
                 src="/img/telas/Ribest2.png"
                 className="img-flotex-galery"
@@ -98,10 +98,10 @@ const Home = () => {
             </div>
           </Row>
         </Container>
-      </Row>
-      <Row className="animate__animated animate__backInUp animate__delay-1s">
-        <Container className=" col-sm-12 col-md-12 col-lg-12">
-          <Row className="col-sm-12 p-1">
+   
+    
+        <Container className=" col-sm-12 col-md-12 col-lg-12 animate__animated animate__backInUp animate__delay-1s">
+          <Row className="col-sm-12 p-1 contenedorImagenes">
             <div className="col-sm-3 col-md-6 col-lg-6 col-xl-3 p-0">
               <Image
                 src="/img/telas/chambrayest1.png"
@@ -125,7 +125,6 @@ const Home = () => {
             </div>
           </Row>
         </Container>
-      </Row>
     </>
   );
 };
