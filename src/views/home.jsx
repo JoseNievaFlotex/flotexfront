@@ -51,9 +51,11 @@ const Home = () => {
       <Container className="d-flex justify-content-center  ">
         <Row className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 justify-content-center">
           <Col className=" cotton-text-flex">
+            <div>
             <p className="animate__animated animate__backInLeft animate__delay-3s">
               Tela de alta Calidad, el bordado le añade textura a la superficie.
             </p>
+            </div>
             <p >Es rígida, ligera y resistente.</p>
             <p >
               Perfecta para confeccionar blusas, camisas, faldas, pantalones y

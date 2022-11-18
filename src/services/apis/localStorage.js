@@ -1,5 +1,6 @@
 const ALMACENAMIENTO_DE_AUTORIZACION = "ALMACENAMIENTO_DE_AUTORIZACION_FLOTEX";
 
+
 export const guardarAutorizacion = (data) => {
   sessionStorage.setItem(ALMACENAMIENTO_DE_AUTORIZACION, JSON.stringify(data));
   sessionStorage.setItem("typeuser", data?.user?.typeuser);
