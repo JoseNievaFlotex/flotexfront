@@ -46,7 +46,7 @@ const Home = () => {
             data-aos="zoom-in-left"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
-            data-aos-duration="2200"
+            data-aos-duration="1500"
           />
         </Row>
       </Container>
@@ -59,7 +59,7 @@ const Home = () => {
               data-aos="zoom-in-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
-              data-aos-duration="2200"
+              data-aos-duration="1500"
             />
           </Row>
           <Col className=" col-md-2 col-lg-2 col-xl-2">
