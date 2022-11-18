@@ -52,9 +52,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="contact-us">
-                  <div className="contact-icon">
-
-                  </div>
+                  <div className="contact-icon"></div>
 
                   <div className="contact-info">
                     <h3>Lima | Perú</h3>
@@ -113,7 +111,8 @@ const Footer = () => {
               <Image className="fotter-logo" src="/img/logos/logodorado.png" />
               <span>
                 {" "}
-                | &copy; Copyright {new Date().getFullYear()}{" "}, Todos Los Derechos Reservados
+                | &copy; Copyright {new Date().getFullYear()} , Todos Los
+                Derechos Reservados
               </span>
             </div>
           </Row>

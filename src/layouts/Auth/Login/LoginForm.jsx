@@ -14,9 +14,7 @@ const LoginForm = () => {
   const formik = useFormik({
     initialValues: { email: "", password: "" },
     validationSchema: Yup.object({
-      email: Yup.string()
-        .email("Email invalido")
-        .required("Requerido"),
+      email: Yup.string().email("Email invalido").required("Requerido"),
       password: Yup.string().required("Requerido"),
     }),
     onSubmit: (values) => setCredentials(values),

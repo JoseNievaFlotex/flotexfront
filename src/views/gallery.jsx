@@ -15,7 +15,7 @@ const Gallery = () => {
         </div>
       </div>
       <div className="container">
-        <Row > 
+        <Row>
           <Col>
             <Row className="justify-content-md-center">
               <div
