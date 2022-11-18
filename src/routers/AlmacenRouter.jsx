@@ -8,17 +8,17 @@ import Product from "../views/Almacen/pages/Product";
 
 const AlmacenRoutes = () => {
   return (
-    <Sidebar>
+    // <Sidebar>
       <NotFoundComponent>
-        {/* <Route element={<Sidebar />} > */}
+        <Route element={<Sidebar />} >
         <Route path="/" element={<Dashboard />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/analisis" element={<Analytics />} />
         <Route path="/product" element={<Product />} />
         <Route path="*" element={<Navigate replace to="/almacen" />} />
-        {/* </Route> */}
+        </Route>
       </NotFoundComponent>
-    </Sidebar>
+    // </Sidebar>
   );
 };
 
